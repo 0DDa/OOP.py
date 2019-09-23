@@ -1,0 +1,24 @@
+class Haircut:
+    def __init__ (self, name = ' ', gender = ' ', cost = 100, code = 0):
+        self.setName(name)
+        self.setGender(gender)
+        self.setcost(cost)
+        self.setCode(code)
+        
+    def setName(self,value):
+        self.__name = value
+    def setGender(self,value):
+        self.__gender = value
+    def setCost(self, value):
+        self.__cost = value
+    def setCode(self,value):
+        self.__code = value
+        
+     def getName(self, value):
+        return self.__name
+    def getGender(self):
+        return self.__gender
+    def getCost(self):
+        return self.__cost
+     def getCode(self):
+        return self.__code
