@@ -1,0 +1,35 @@
+class Client:
+    
+    def __init__(self, code = 0, surname = ' ', name = ' ', secname = ' ', gender = ' ', true = 0):
+        self.setSurname(surname)
+        self.setName(name)
+        self.setSecname(name)
+        self.setGender(gender)
+        self.setCode(code)
+        
+        def setSurname(self, value):
+            self.__surname = value
+        def setName(self, value):
+            self.__name = value
+        def setSecname(self, value):
+            self.__secname = value
+        def setGender(self, value):
+            self.__gender = value
+        def setTrue(self, value):
+            self.__true = value
+        def setCode(self, value)
+            self.__code = value  
+        
+        def getSurname(self, value):
+            return self.__surname
+        def getName(self, value):
+            return self.__name
+        def getSecname(self, value):
+            return self.__secname
+        def getGender(self, value):
+            return self.__gender
+        def getTrue(self, value):
+            return self.__true
+        def getCode(self, value):
+            return self.__code
+        
