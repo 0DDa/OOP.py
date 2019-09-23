@@ -1,0 +1,23 @@
+from haircut import Haircut
+
+class Rabota(Haircut):
+
+    def __init__(self, client = ' ', date = ' ', code = 0):
+        self.setClient(client)
+        self.setDate(date)
+        self.setCode(code)
+   
+   
+    def setClient(self,value):
+        self.__client = value
+    def setDate(self, value):
+        self.__date = value
+    def setCode(self,value):
+        self.__code = value
+        
+    def getClient(self):
+        return self.__client
+    def getDate(self):
+        return self.__date
+    def getCode(self):
+        return self.__code
